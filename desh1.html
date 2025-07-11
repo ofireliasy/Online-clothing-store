@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>המערכת שלי - ניתוח ניהולי של רכישת בגדים אונליין</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(135deg, #fff0f5, #fce4ec);
+      min-height: 100vh;
+      font-family: 'Inter', sans-serif;
+      color: #4a2c40;
+    }
+    header {
+      background: #ffffff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .nav-link {
+      transition: color 0.2s ease;
+    }
+    .nav-link:hover {
+      color: #d81b60;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1rem;
+    }
+    .card {
+      background: white;
+      border-radius: 0.5rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    }
+    .btn-primary {
+      background: #d81b60;
+      color: white;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+    .btn-primary:hover {
+      background: #ad1457;
+      transform: translateY(-1px);
+    }
+  </style>
+</head>
+<body>
+  <header class="py-4 sticky top-0 z-50">
+    <nav class="container flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-pink-800">המערכת שלי - ניתוח רכישת בגדים אונליין 👗</h1>
+      <div class="space-x-6">
+        <a href="index.html" class="nav-link text-pink-600 text-lg font-medium">חזרה לדף הראשי</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container py-12">
+    <section class="card p-8 mb-12">
+      <h2 class="text-3xl font-bold text-pink-800 mb-4">ניתוח ניהולי של רכישת בגדים אונליין</h2>
+      <p class="text-lg text-pink-600 max-w-3xl">
+        בצד שמאל – נבחן הקשר בין אחוז ההנחה לבין רמת שביעות הרצון של הלקוחות. ניתן לראות שהנחה של 15% קשורה לרמת שביעות רצון גבוהה ביותר, אך הנחות גבוהות יותר אינן משפרות בהכרח את חוויית הלקוח.
+        בצד ימין – נבחן הקשר בין זמן האספקה לבין שביעות רצון. מהגרף עולה שזמן אספקה קצר (יום-יומיים) תורם לשביעות רצון גבוהה, בעוד זמני אספקה ארוכים יותר (מעל 3 ימים) מובילים לירידה משמעותית בשביעות הרצון.
+      </p>
+    </section>
+
+    <section class="card p-8">
+      <h3 class="text-2xl font-bold text-pink-800 mb-4">מערכת ניהולית</h3>
+      <div class="tableauPlaceholder" id="viz17520792609450" style="position: relative">
+        <noscript>
+          <a href="#"><img alt="Dashboard1" src="https://public.tableau.com/static/images/_1/_17520792609450/sheet7/1.png" style="border: none" /></a>
+        </noscript>
+        <object class="tableauViz" style="display:none;">
+          <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
+          <param name="embed_code_version" value="3" />
+          <param name="site_root" value="" />
+          <param name="name" value="_17520792609450/sheet7" />
+          <param name="tabs" value="no" />
+          <param name="toolbar" value="yes" />
+          <param name="static_image" value="https://public.tableau.com/static/images/_1/_17520792609450/sheet7/1.png" />
+          <param name="animate_transition" value="yes" />
+          <param name="display_static_image" value="yes" />
+          <param name="display_spinner" value="yes" />
+          <param name="display_overlay" value="yes" />
+          <param name="display_count" value="yes" />
+          <param name="language" value="en-US" />
+          <param name="publish" value="yes" />
+        </object>
+      </div>
+      <script type="text/javascript">
+        var divElement = document.getElementById('viz17520792609450');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        vizElement.style.width = '100%';
+        vizElement.style.height = (divElement.offsetWidth < 500 ? '727px' : '827px');
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+      </script>
+    </section>
+  </main>
+
+  <footer class="py-6 bg-white shadow-inner text-center">
+    <p class="text-pink-600">© 2025 המערכת שלי - ניתוח רכישת בגדים אונליין. כל הזכויות שמורות.</p>
+  </footer>
+</body>
+</html>
