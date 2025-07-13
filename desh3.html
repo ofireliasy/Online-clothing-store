@@ -1,1 +1,95 @@
 
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ניתוח רכישת בגדים אונליין</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(135deg, #f7fafc, #e2e8f0);
+      min-height: 100vh;
+      font-family: 'Inter', sans-serif;
+      color: #2d3748;
+    }
+    header {
+      background: #ffffff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .nav-link {
+      transition: color 0.2s ease;
+    }
+    .nav-link:hover {
+      color: #4b6cb7;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1rem;
+    }
+    .card {
+      background: white;
+      border-radius: 0.5rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    }
+  </style>
+</head>
+<body>
+  <header class="py-4 sticky top-0 z-50">
+    <nav class="container flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-gray-800">מערכת ניתוח רכישות אונליין</h1>
+      <div class="space-x-6">
+        <a href="index.html" class="nav-link text-gray-600 text-lg font-medium">חזרה לדף הראשי</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container py-12">
+    <section class="card p-8 mb-12">
+      <h2 class="text-3xl font-bold text-gray-800 mb-4">ניתוח רכישת בגדים אונליין</h2>
+      <p class="text-lg text-gray-600 max-w-3xl">
+        הניתוח מתמקד בהתנהגות הצרכנית של לקוחות בחנות בגדים אונליין. בדשבורד מופיעים נתונים על היקף מכירות לפי חודשים, סוגי מוצרים פופולריים, זמני עומס, שיעור לקוחות חדשות, ועוד. המטרה היא להבין מתי ואיך לקוחות מבצעות רכישות, אילו קטגוריות הכי נמכרות, ולזהות הזדמנויות לשיפור בשירות, בשיווק ובתמחור. באמצעות הניתוח ניתן לקבל תובנות אמיתיות המאפשרות קבלת החלטות עסקיות חכמות ומדויקות.
+      </p>
+    </section>
+
+    <section class="card p-8">
+      <h3 class="text-2xl font-bold text-gray-800 mb-4">דשבורד רכישת בגדים אונליין</h3>
+      <div class="tableauPlaceholder" id="vizClothingStore" style="position: relative">
+        <noscript>
+          <a href="#"><img alt="Dashboard Clothing Store" src="https://public.tableau.com/static/images/_1/7520792609450/sheet7/1.png" style="border: none" /></a>
+        </noscript>
+        <object class="tableauViz" style="display:none;">
+          <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
+          <param name="embed_code_version" value="3" />
+          <param name="site_root" value="" />
+          <param name="name" value="_17520792609450/sheet7" />
+          <param name="tabs" value="no" />
+          <param name="toolbar" value="yes" />
+          <param name="static_image" value="https://public.tableau.com/static/images/_1/7520792609450/sheet7/1.png" />
+          <param name="animate_transition" value="yes" />
+          <param name="display_static_image" value="yes" />
+          <param name="display_spinner" value="yes" />
+          <param name="display_overlay" value="yes" />
+          <param name="display_count" value="yes" />
+          <param name="language" value="en-US" />
+        </object>
+      </div>
+      <script type="text/javascript">
+        var divElement = document.getElementById('vizClothingStore');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        vizElement.style.width = '100%';
+        vizElement.style.height = (divElement.offsetWidth < 500 ? '727px' : '827px');
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+      </script>
+    </section>
+  </main>
+
+  <footer class="py-6 bg-white shadow-inner text-center">
+    <p class="text-gray-600">© 2025 מערכת ניתוח רכישות אונליין. כל הזכויות שמורות.</p>
+  </footer>
+</body>
+</html>
